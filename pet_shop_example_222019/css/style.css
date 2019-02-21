@@ -1,0 +1,83 @@
+/* This is where we will be writing all of your styles */
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700i,900|Roboto:400,400i,700i,900');
+
+body {
+  background-color: #b366ff;
+    color: green;
+  font-family: "Roberto", sans-serif;
+}
+
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  text-size: 100px;
+  font-family: "Roberto", sans-serif;
+  color:  #ff6666;
+}
+
+h2 {
+  text-align: center;
+  font-size: 60px;
+  font-style: bold;
+}
+
+ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+  /* text-align: center; */
+
+li {
+  background-color: white;
+  padding: 30px;
+  font-size: 30px;
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+li:hover {
+  opacity: 0.5;
+}
+
+  /* width: 300px; */
+  height: 300px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top; */
+
+
+.fish {
+  color: orange;
+  text-decoration: underline;
+  padding: 30px;
+  margin-top: 40px;
+}
+
+.mammals {
+  color: red;
+  font-weight: bold;
+  padding: 0px 30px;
+}
+
+.birds {
+  color: blue;
+  font-style: italic;
+  margin-top: 30px;
+  padding-bottom: 40px;
+}
+
+#firstlist {
+ background-color: green;
+}
+
+img {
+  width: 100%;
+  }
